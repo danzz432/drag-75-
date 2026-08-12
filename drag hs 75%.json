@@ -1,0 +1,28 @@
+{
+  "game": {
+    "name": "com.dts.freefireth",
+    "version": "1.30.1"
+    },
+  "server": {
+    "region": "Singapore",
+    "ip": "203.0.113.10",
+    "port": 7777,
+    "protocol": "udp"
+  },
+  "dragTarget": {
+    "enabled": true,
+    "mode": "neck",
+    "strength": 0.80,
+    "smoothness": 0.60,
+    "maxDistance": 180,
+    "priority": [
+      "body",
+      "torso",
+      "legs"
+    ],
+    "offset": {
+      "x": 0.0,
+      "y": 0.15
+    }
+  }
+}
